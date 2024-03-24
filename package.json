@@ -1,6 +1,6 @@
 {
   "name": "gestor-tipos-tarefas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/maycon-santana/gestor-tipos-tarefas.git",
   "author": "MayconInforGames2017 <maycon_gus2009@hotmail.com>",
@@ -8,10 +8,15 @@
   "type": "module",
   "dependencies": {
     "@adminjs/express": "^6.1.0",
+    "@adminjs/sequelize": "^4.1.1",
     "adminjs": "^7.7.4",
+    "dotenv": "^16.4.5",
     "express": "^4.19.1",
     "express-formidable": "^1.2.0",
     "express-session": "^1.18.0",
+    "pg-hstore": "^2.3.4",
+    "postgres": "^3.4.4",
+    "sequelize": "^6.37.1",
     "tslib": "^2.6.2"
   },
   "devDependencies": {
